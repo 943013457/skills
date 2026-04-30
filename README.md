@@ -13,10 +13,12 @@ skills/
 ├── productivity/              # 生产力工具
 │   ├── multi-search-engine/     # 多搜索引擎搜索
 │   └── dingtalk-notify/          # 发送钉钉群机器人消息
-└── software-development/     #软件开发
-    └── create-skill-hermes/     # 创建与优化 Hermes Skill
+├── software-development/     # 软件开发
+│   └── create-skill-hermes/     # 创建与优化 Hermes Skill
 └── social-media/             # 社交媒体
     └── xiaohongshu-read/        # 读取小红书用户主页和笔记
+└── research/                 # 研究学习
+    └── karpathy-guidelines/      # Karpathy LLM 编码指南
 ```
 
 ## Skill 列表
@@ -63,6 +65,13 @@ skills/
 
 ---
 
+### research/karpathy-guidelines
+行为指南，减少 LLM 编码常见错误。源于 Andrej Karpathy 对 LLM 编程陷阱的观察。
+
+**触发关键词**：编码规范、代码审查、LLM 编程陷阱、Karpathy
+
+---
+
 ## 使用方式
 
 将这些 skill 克隆到本地 Hermès skills 目录：
@@ -78,6 +87,7 @@ git clone https://github.com/943013457/skills.git ~/.hermes/skills
 - **2026-04-30**：初始仓库创建
 - 新增 github-content-fetch、query-weather、multi-search-engine、create-skill-hermes
 - 新增 dingtalk-notify、xiaohongshu-read
+- 新增 karpathy-guidelines（from forrestchang/andrej-karpathy-skills）
 
 ---
 
