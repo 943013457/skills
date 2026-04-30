@@ -11,9 +11,12 @@ skills/
 ├── weather/                   # 天气查询
 │   └── query-weather/           # 查询天气预报
 ├── productivity/              # 生产力工具
-│   └── multi-search-engine/     # 多搜索引擎搜索
+│   ├── multi-search-engine/     # 多搜索引擎搜索
+│   └── dingtalk-notify/          # 发送钉钉群机器人消息
 └── software-development/     #软件开发
     └── create-skill-hermes/     # 创建与优化 Hermes Skill
+└── social-media/             # 社交媒体
+    └── xiaohongshu-read/        # 读取小红书用户主页和笔记
 ```
 
 ## Skill 列表
@@ -39,10 +42,24 @@ skills/
 
 ---
 
+### productivity/dingtalk-notify
+发送钉钉群机器人消息，支持 text 和 markdown 格式，使用 HMAC-SHA256 加签认证。
+
+**触发关键词**：钉钉、钉钉群消息、钉钉通知、发送钉钉
+
+---
+
 ### software-development/create-skill-hermes
 在 Hermès 中创建、测试并迭代优化 SKILL.md。
 
 **触发关键词**：创建 skill、写 skill、新建 skill、skill 优化、触发率
+
+---
+
+### social-media/xiaohongshu-read
+读取小红书用户主页和笔记信息，支持 xhslink.com 短链接或 www.xiaohongshu.com 用户主页。
+
+**触发关键词**：小红书、xiaohongshu、xhslink、读取小红书
 
 ---
 
@@ -60,6 +77,7 @@ git clone https://github.com/943013457/skills.git ~/.hermes/skills
 
 - **2026-04-30**：初始仓库创建
 - 新增 github-content-fetch、query-weather、multi-search-engine、create-skill-hermes
+- 新增 dingtalk-notify、xiaohongshu-read
 
 ---
 
