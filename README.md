@@ -14,7 +14,8 @@ skills/
 ├── productivity/                 # 生产力工具
 │   ├── multi-search-engine/     # 多搜索引擎搜索
 │   ├── dingtalk-notify/         # 发送钉钉群机器人消息
-│   └── karpathy-guidelines/     # Karpathy LLM 编码指南
+│   ├── karpathy-guidelines/     # Karpathy LLM 编码指南
+│   └── find-docs/               # 文档检索（Context7）
 ├── software-development/        # 软件开发
 │   └── create-skill-hermes/     # 创建与优化 Hermes Skill
 └── social-media/                # 社交媒体
@@ -65,6 +66,13 @@ skills/
 
 ---
 
+### productivity/find-docs
+通过 Context7 CLI 检索最新文档、API 参考和代码示例，适用于任何开发技术库。
+
+**触发关键词**：文档、docs、API 文档、库文档、查询文档
+
+---
+
 ### software-development/create-skill-hermes
 在 Hermès 中创建、测试并迭代优化 SKILL.md。
 
@@ -97,7 +105,7 @@ git clone https://github.com/943013457/skills.git ~/.hermes/skills
 - 新增 karpathy-guidelines（from forrestchang/andrej-karpathy-skills）
 - karpathy-guidelines 移动到 productivity/
 - 删除 sync-skills-to-github，新增 github-update-monitor
-- 删除 context7-doc-query
+- 新增 find-docs（Context7 文档检索）
 
 ---
 
