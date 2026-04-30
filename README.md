@@ -7,7 +7,9 @@
 ```
 skills/
 ├── github/                      # GitHub 相关
-│   └── github-content-fetch/   # 获取 GitHub 仓库文件内容
+│   ├── github-content-fetch/   # 获取 GitHub 仓库文件内容
+│   ├── github-update-monitor/  # 监控 GitHub 仓库更新
+│   └── context7-doc-query/     # Context7 官方文档查询
 ├── weather/                     # 天气查询
 │   └── query-weather/           # 查询天气预报
 ├── productivity/                 # 生产力工具
@@ -26,6 +28,20 @@ skills/
 获取 GitHub 仓库中的原始文件内容，支持 raw.githubusercontent.com 直连。
 
 **触发关键词**：获取 GitHub 文件、下载 GitHub 内容、raw.githubusercontent、fetch github
+
+---
+
+### github/github-update-monitor
+监控 GitHub 仓库或特定文件/分支的更新，适合追踪依赖变化或项目动态。
+
+**触发关键词**：监控 GitHub、仓库更新、检查更新、watch github
+
+---
+
+### github/context7-doc-query
+使用 Context7 MCP Server 查询官方文档和最新资料。
+
+**触发关键词**：查文档、官方文档、context7、库文档
 
 ---
 
@@ -88,6 +104,7 @@ git clone https://github.com/943013457/skills.git ~/.hermes/skills
 - 新增 dingtalk-notify、xiaohongshu-read
 - 新增 karpathy-guidelines（from forrestchang/andrej-karpathy-skills）
 - karpathy-guidelines 移动到 productivity/
+- 删除 sync-skills-to-github，新增 github-update-monitor、context7-doc-query
 
 ---
 
