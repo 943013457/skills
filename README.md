@@ -18,8 +18,9 @@ skills/
 │   └── find-docs/               # 文档检索（Context7）
 ├── software-development/        # 软件开发
 │   └── create-skill-hermes/     # 创建与优化 Hermes Skill
-└── social-media/                # 社交媒体
-    └── xiaohongshu-read/        # 读取小红书用户主页和笔记
+├── social-media/                # 社交媒体
+│   └── xiaohongshu-read/        # 读取小红书用户主页和笔记
+└── amap-lbs-skill/             # 高德地图 LBS 服务
 ```
 
 ## Skill 列表
@@ -87,6 +88,13 @@ skills/
 
 ---
 
+### amap-lbs-skill
+高德地图综合服务，支持 POI 搜索、周边搜索、路径规划、旅游规划和热力图可视化。
+
+**触发关键词**：附近、周边、附近美食、附近酒店、附近景点、导航、路线、规划
+
+---
+
 ## 使用方式
 
 将这些 skill 克隆到本地 Hermès skills 目录：
@@ -106,6 +114,7 @@ git clone https://github.com/943013457/skills.git ~/.hermes/skills
 - karpathy-guidelines 移动到 productivity/
 - 删除 sync-skills-to-github，新增 github-update-monitor
 - 新增 find-docs（Context7 文档检索）
+- 新增 amap-lbs-skill（高德地图 LBS 服务）
 
 ---
 
