@@ -7,24 +7,16 @@
 ```
 skills/
 ├── github/                    # GitHub 相关
-│   ├── sync-skills-to-github/   # 同步本地 skills 到 GitHub
 │   └── github-content-fetch/    # 获取 GitHub 仓库文件内容
 ├── weather/                   # 天气查询
 │   └── query-weather/           # 查询天气预报
 ├── productivity/              # 生产力工具
 │   └── multi-search-engine/     # 多搜索引擎搜索
-└── software-development/     # 软件开发
+└── software-development/     #软件开发
     └── create-skill-hermes/     # 创建与优化 Hermes Skill
 ```
 
 ## Skill 列表
-
-### github/sync-skills-to-github
-将本地 Hermès skills 同步/备份到 GitHub 仓库。
-
-**触发关键词**：上传 skills、同步 skills、备份 skills、push skills、把 skill 传到 GitHub
-
----
 
 ### github/github-content-fetch
 获取 GitHub 仓库中的原始文件内容，支持 raw.githubusercontent.com 直连。
@@ -67,7 +59,7 @@ git clone https://github.com/943013457/skills.git ~/.hermes/skills
 ## 更新日志
 
 - **2026-04-30**：初始仓库创建
-- 新增 sync-skills-to-github、github-content-fetch、query-weather、multi-search-engine、create-skill-hermes
+- 新增 github-content-fetch、query-weather、multi-search-engine、create-skill-hermes
 
 ---
 
