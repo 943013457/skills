@@ -1,24 +1,24 @@
-# Hermes Agent Skills Repository
+# Hermès Agent Skills 知识库
 
-📦 存放 Hermès Agent 的可复用 Skill 知识库，支持版本化管理与跨会话复用。
+📦 存放 Hermès Agent 的可复用 Skill，支持版本化管理与跨会话复用。
 
 ## 目录结构
 
 ```
 skills/
-├── github/                    # GitHub 相关
+├── github/                      # GitHub 相关
 │   └── github-content-fetch/    # 获取 GitHub 仓库文件内容
-├── weather/                   # 天气查询
+├── weather/                     # 天气查询
 │   └── query-weather/           # 查询天气预报
-├── productivity/              # 生产力工具
+├── productivity/                # 生产力工具
 │   ├── multi-search-engine/     # 多搜索引擎搜索
-│   └── dingtalk-notify/          # 发送钉钉群机器人消息
-├── software-development/     # 软件开发
+│   └── dingtalk-notify/         # 发送钉钉群机器人消息
+├── software-development/         # 软件开发
 │   └── create-skill-hermes/     # 创建与优化 Hermes Skill
-└── social-media/             # 社交媒体
-    └── xiaohongshu-read/        # 读取小红书用户主页和笔记
-└── research/                 # 研究学习
-    └── karpathy-guidelines/      # Karpathy LLM 编码指南
+├── social-media/                # 社交媒体
+│   └── xiaohongshu-read/        # 读取小红书用户主页和笔记
+└── research/                    # 研究学习
+    └── karpathy-guidelines/     # Karpathy LLM 编码指南
 ```
 
 ## Skill 列表
