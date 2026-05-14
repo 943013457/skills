@@ -9,6 +9,8 @@ skills/
 ├── github/                      # GitHub 相关
 │   ├── github-content-fetch/   # 获取 GitHub 仓库文件内容
 │   └── github-update-monitor/  # 监控 GitHub 仓库更新
+├── research/                    # 研究与信息获取
+│   └── hex2077-intelligence-bridge/  # HEX2077 AI 日报/周报获取
 ├── weather/                     # 天气查询
 │   └── query-weather/           # 查询天气预报
 ├── productivity/                 # 生产力工具
@@ -36,6 +38,13 @@ skills/
 监控 GitHub 仓库或特定文件/分支的更新，适合追踪依赖变化或项目动态。
 
 **触发关键词**：监控 GitHub、仓库更新、检查更新、watch github
+
+---
+
+### research/hex2077-intelligence-bridge
+获取 HEX2077 AI 日报/周报，支持全量深度解析和自动化巡检任务。
+
+**触发关键词**：AI 日报、HEX2077、何夕2077、AI 周报、每日 AI 资讯
 
 ---
 
@@ -115,6 +124,7 @@ git clone https://github.com/943013457/skills.git ~/.hermes/skills
 - 删除 sync-skills-to-github，新增 github-update-monitor
 - 新增 find-docs（Context7 文档检索）
 - 新增 amap-lbs-skill（高德地图 LBS 服务）
+- 新增 hex2077-intelligence-bridge（HEX2077 AI 日报/周报获取）
 
 ---
 
