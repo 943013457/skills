@@ -22,6 +22,7 @@ skills/
 │   └── create-skill-hermes/     # 创建与优化 Hermes Skill
 ├── social-media/                # 社交媒体
 │   └── xiaohongshu-read/        # 读取小红书用户主页和笔记
+├── stock-analysis/             # 个股深度研究
 └── amap-lbs-skill/             # 高德地图 LBS 服务
 ```
 
@@ -97,6 +98,15 @@ skills/
 
 ---
 
+### stock-analysis
+个股深度研究系统，基于 akshare 免费数据，生成专业个股基本面分析 HTML 报告（K线图、财务分析、五维评分、投资建议）。
+
+**触发关键词**：分析股票、个股分析、股票研究、基本面分析、分析 XXX 股票
+
+**三层架构**：数据采集（akshare）→ AI 逐步分析 Step 0-8 → HTML 可视化报告
+
+---
+
 ### amap-lbs-skill
 高德地图综合服务，支持 POI 搜索、周边搜索、路径规划、旅游规划和热力图可视化。
 
@@ -125,6 +135,7 @@ git clone https://github.com/943013457/skills.git ~/.hermes/skills
 - 新增 find-docs（Context7 文档检索）
 - 新增 amap-lbs-skill（高德地图 LBS 服务）
 - 新增 hex2077-intelligence-bridge（HEX2077 AI 日报/周报获取）
+- 新增 stock-analysis（个股深度研究系统）
 
 ---
 
