@@ -7,8 +7,9 @@
 ```
 skills/
 ├── github/                      # GitHub 相关
-│   ├── github-content-fetch/   # 获取 GitHub 仓库文件内容
-│   └── github-update-monitor/  # 监控 GitHub 仓库更新
+│   ├── github-content-fetch/    # 获取 GitHub 仓库文件内容
+│   ├── github-update-monitor/   # 监控 GitHub 仓库更新
+│   └── sync-skills-to-github/   # 将本地 Skill 同步到 GitHub
 ├── research/                    # 研究与信息获取
 │   └── hex2077-intelligence-bridge/  # HEX2077 AI 日报/周报获取
 ├── weather/                     # 天气查询
@@ -21,7 +22,8 @@ skills/
 ├── software-development/        # 软件开发
 │   └── create-skill-hermes/     # 创建与优化 Hermes Skill
 ├── social-media/                # 社交媒体
-│   └── xiaohongshu-read/        # 读取小红书用户主页和笔记
+│   ├── xiaohongshu-read/        # 读取小红书用户主页和笔记
+│   └── hermes-tweet/            # X/Twitter 草稿、读取和需确认操作
 ├── stock-analysis/             # 个股深度研究
 └── amap-lbs-skill/             # 高德地图 LBS 服务
 ```
@@ -39,6 +41,13 @@ skills/
 监控 GitHub 仓库或特定文件/分支的更新，适合追踪依赖变化或项目动态。
 
 **触发关键词**：监控 GitHub、仓库更新、检查更新、watch github
+
+---
+
+### github/sync-skills-to-github
+将本地 Hermes Skill 同步或备份到 GitHub，并在上传前检查敏感信息。
+
+**触发关键词**：上传 Skill、同步 Skill、备份 Skill、push Skill
 
 ---
 
@@ -98,6 +107,13 @@ skills/
 
 ---
 
+### social-media/hermes-tweet
+在 Hermès Agent 中用 Hermes Tweet 撰写 X/Twitter 草稿、实时读取、监控和执行需确认的操作。
+
+**触发关键词**：X、Twitter、tweet、发推、推文草稿、趋势、监控、Hermes Tweet
+
+---
+
 ### stock-analysis
 个股深度研究系统，基于 akshare 免费数据，生成专业个股基本面分析 HTML 报告（K线图、财务分析、五维评分、投资建议）。
 
@@ -131,11 +147,12 @@ git clone https://github.com/943013457/skills.git ~/.hermes/skills
 - 新增 dingtalk-notify、xiaohongshu-read
 - 新增 karpathy-guidelines（from forrestchang/andrej-karpathy-skills）
 - karpathy-guidelines 移动到 productivity/
-- 删除 sync-skills-to-github，新增 github-update-monitor
+- 新增 github-update-monitor，并保留 sync-skills-to-github 用于备份
 - 新增 find-docs（Context7 文档检索）
 - 新增 amap-lbs-skill（高德地图 LBS 服务）
 - 新增 hex2077-intelligence-bridge（HEX2077 AI 日报/周报获取）
 - 新增 stock-analysis（个股深度研究系统）
+- 新增 hermes-tweet（X/Twitter 草稿、读取和需确认操作）
 
 ---
 
